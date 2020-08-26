@@ -336,7 +336,7 @@ const ReactCompareImage: React.FC<IProps> = props => {
       width: '0px',
     },
     leftLabel: {
-      background: 'rgba(0, 0, 0, 0.5)',
+      background: 'rgba(0, 0, 0, 0.8)',
       color: 'white',
       left: horizontal ? '5%' : '50%',
       opacity: isSliding ? 0 : 1,
@@ -347,7 +347,7 @@ const ReactCompareImage: React.FC<IProps> = props => {
       transition: 'opacity 0.1s ease-out',
     },
     rightLabel: {
-      background: 'rgba(0, 0, 0, 0.5)',
+      background: 'rgba(0, 0, 0, 0.8)',
       color: 'white',
       opacity: isSliding ? 0 : 1,
       padding: '10px 20px',
